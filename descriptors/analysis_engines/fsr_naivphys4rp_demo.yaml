@@ -1,0 +1,12 @@
+ae:
+  name: fsr_naivphys4rp_demo
+fixedflow:
+  - BeliefLoader
+  - Contextualizer
+  - Imaginator
+  - ForwardSimulatior
+  - ForwardLearner
+CollectionReader:
+  camera_config_files: ['naivphys4rp_camera.ini']
+RegionFilter:
+  enable_change_detection: false
